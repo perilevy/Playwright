@@ -40,12 +40,12 @@
 2. Write a test that mocks a GET request to the API `https://jsonplaceholder.typicode.com/posts/1`.
 The mock should intercept a GET request to /posts/1 and reply with a 200 status and a body containing a title of 'mocked title'.
 
-3. In the same test, perform a GET request to https://jsonplaceholder.typicode.com/posts/1 using the http module from Playwright.
+3. In the same test, perform a GET request to https://jsonplaceholder.typicode.com/posts/1 using native fetch API.
 
 4. Check the title of the response body. It should be 'mocked title', which is the title provided by the mock.
 
 5. Write another command that mocks a PATCH request to the API. The mock should intercept a PATCH request to /posts/1 and reply with a 200 status and a body containing a title of 'new mocked title'.  
-6. In the same test, perform a PATCH request to https://jsonplaceholder.typicode.com/posts/1 using the http module from Playwright.
+6. In the same test, perform a PATCH request to https://jsonplaceholder.typicode.com/posts/1 using native fetch API.
 The request body should contain a title of 'new mocked title'.
 
 7. Run `npm test` to see the test passes
