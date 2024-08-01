@@ -1,0 +1,8 @@
+# ignore node modules
+node_modules
+
+# ignore ide files
+.idea
+
+# ignore test results
+test-results
